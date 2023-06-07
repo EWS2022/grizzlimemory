@@ -1,0 +1,83 @@
+@media (max-width: 580px) {
+
+    .time p, .time span {
+        font-size: 26px;
+    }
+
+    .menu, .game__over_lost, .game__over_win {
+        width: 350px;
+    }
+
+    select, .game__over_lost button, .game__over_win button, .menu button {
+        width: 250px;
+    }
+
+    .menu p {
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+
+    .game__over_lost p {
+        font-size: 28px;
+        margin-bottom: 18px;
+    }
+}
+
+@media (orientation: portrait) {
+    .box {
+        width: 80vw;
+        height: 80vw;
+        gap: 2vw;
+        padding: 2vw;
+        border-radius: 2vw;
+    }
+
+    .box__cards {
+        border-radius: 1vw;
+    }
+
+    .time span, .time p {
+        font-size: 10vw;
+    }
+}
+
+@media(max-width: 425px) {
+    .box {
+        width: 99vw;
+        height: 99vw;
+        margin: 0 3px;
+    }
+
+    .box__cards {
+        border-radius: 6px;
+    }
+}
+
+
+@media(max-width: 375px) {
+    .menu, .game__over_lost, .game__over_win {
+        width: 300px;
+        padding: 20px;
+    }
+
+    .menu p {
+        font-size: 28px;
+    }
+
+    select, .menu button {
+        width: 230px;
+    }
+
+    .box {
+        width: 90vw;
+        height: 90vw;
+        margin: 0 3px;
+    }
+
+    .game__over_win p {
+        font-size: 28px;
+    }
+}

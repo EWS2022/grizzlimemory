@@ -54,7 +54,7 @@ function timerStart() {
         console.log('ok');
         time = time - 1;
         span.innerText = time + 's';
-        if (time == 0) {
+        if (time == 0 && cardsOpen != 8) {
             clearInterval(timerInterval);
             wrapper.classList.remove('_hidden');
             lostBlock.classList.add('_show');
